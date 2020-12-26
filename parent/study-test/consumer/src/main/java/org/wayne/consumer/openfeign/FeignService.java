@@ -15,6 +15,7 @@ import org.wayne.consumer.openfeignandhystrix.IFallBackFactory;
 public interface FeignService {
 
     // 底层：restTemplate.getForObject(uri, String.class)
+    // 远程调用 http://provide/hello
     @GetMapping("/hello")
     String hello();
 

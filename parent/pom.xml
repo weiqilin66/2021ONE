@@ -3,10 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion><!--pom的模型规范版本-->
     <packaging>pom</packaging>
-    <modules>
-        <module>eureka</module>
-        <module>main-test</module>
-    </modules><!--父模块打包类型必须为pom-->
+  <!--父模块打包类型必须为pom-->
 
     <!--如何控制依赖版本？
         由父工程定义boot及依赖的版本

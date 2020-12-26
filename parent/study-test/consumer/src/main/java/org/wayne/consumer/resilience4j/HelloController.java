@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @Description:
  * @author: LinWeiQi
  */
-@RestController
+@RestController("resilience4jController")
 public class HelloController {
     @Autowired
     MyService myService;

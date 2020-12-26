@@ -21,7 +21,7 @@ import java.util.concurrent.Future;
  * @Description:  熔断-服务降级(eg:数据库查->缓存查->final值)
  * @author: LinWeiQi
  */
-@RestController
+@RestController("hystrixHelloController")
 @RequestMapping("/hystrix")
 public class HelloController {
 
